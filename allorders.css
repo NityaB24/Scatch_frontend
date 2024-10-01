@@ -1,0 +1,8 @@
+/* Add this to your CSS file or inside a <style> tag in your component */
+@media (max-width: 640px) {
+    .table-container {
+      transform: scale(0.8); /* Adjust the scale value as needed */
+      transform-origin: top left;
+      width: 125%; /* Adjust width to compensate for scaling */
+    }
+  }
